@@ -1,0 +1,25 @@
+*{
+    font-style: italic;
+}
+
+h2{
+    color: beige;
+    background-color: black;
+}
+ #mypara {
+         color:red;
+         background-color: blue;
+ }
+ 
+ .common{
+    color: chartreuse;
+    border-color: black;
+ }
+ /* nested slector */
+ .nested div h3 {
+    color: black;
+    background-color: green;
+ }
+ .home .navbar .mynav li a{
+    color: red;
+ }

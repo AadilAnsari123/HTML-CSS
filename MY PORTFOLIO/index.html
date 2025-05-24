@@ -5,12 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <style>
+        header table tr td h1{
+            color: cadetblue;
+            font-style: italic;
+            text-shadow: 5px 5px #8888;
+            letter-spacing: 10px;
+        }
+        img{
+            object-fit: cover;
+            vertical-align: middle;
+        }
         header{
             text-align: center;
         }
         table{
             text-align: center;
             
+        }
+        header table tr td h2{
+            color: aqua;
+            font-size: 40px;
+            font-style: oblique;
+        }
+        header table tr td a{
+            text-emphasis: none;
+            color: #1e1c1c;
+            text-decoration: none;
+            font-style: italic;
+            
+        }
+        table tr th{
+            color: darkolivegreen;
+            font-style: unset;
+        }
+        table #common ul li{
+            color: aquamarine;
+        }
+        strong{
+            color: red;
+            font-style: italic;
+        }
+        table tr .name{
+            color: chocolate;
+            text-decoration: none;
+            font-style: italic;
+        }
+        table tr .name a{
+            text-decoration: none;
+            color: black;
+            letter-spacing: 5px;
+        }
+        footer h2{
+            color: antiquewhite;
+            letter-spacing: 5px;
+            font-style: italic;
+        }
+        footer table tr td{
+            color: grey;
+            font: 1em sans-serif;
+        }
+        footer marquee{
+            color: red;
+            font-style: italic;
         }
     </style>
 </head>
@@ -20,12 +76,13 @@
         <table>
             <tr>
                 <td><img src="1670242880644.jpg" alt="" height="200" width="150"></td>
-                <td>  <h1>AADIL ANSARI</h1>
-        <a href="Home">Home:</a>
-        <a href="Project">Project: </a>
-        <a href="Blogs">Blogs: </a>
-        <a href="Contact">Contact: </a>
-        <h2>Web Developer And Designer</h2></td>
+                <td> <h1>AADIL ANSARI</h1>
+        <a href="Home">Home</a>
+        <a href="Project">Project</a>
+        <a href="Blogs">Blogs</a>
+        <a href="Contact">Contact</a>
+        <h2>Web Developer And Designer</h2>
+      </td>
             </tr>
         </table>
         
@@ -36,7 +93,7 @@
                 <th>Career Achievements</th>
                 <th>Academic Qualification</th>
             </tr>
-            <tr>
+            <tr id="common">
                 <td>
                     <ul>
                         <li>Responsive HTML Layout</li>
@@ -47,7 +104,7 @@
                     </ul>
                 </td>
 
-                <td>
+                <td class="name">
                     Frontent Develeper [Intern] At XYZ.
                     <br>
                     Header Major Product Redesigns Resulting In A 40% Increase In.
@@ -66,7 +123,7 @@
                     Projects.
                     <br>
                     <a href="https://github.com/">Visit My GitHub Profile</a>
-                    <td>
+                    <td class="sam">
                         B.TECH(COMPUTER SCIENCE)Form
                         <br>
                         IES UNIVERSITY, BHOPAL.
@@ -90,10 +147,12 @@
             
         </table>
         <br>
-        <footer><h2>PEER REVIEWS</h2>
+        <footer>
+            <h2>PEER REVIEWS</h2>
             <table border="1">
                 <tr>
-                    <td>Aadil Ansari Consistently Delivers High-Quality,
+                    <td>
+                        Aadil Ansari Consistently Delivers High-Quality,
                         <br>
                         Innovative Solutions That Exceed Project
                         <br>
