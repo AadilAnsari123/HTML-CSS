@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Schedule with CSS Grid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .schedule-container {
+            background-color: #1a2a44;
+            border-radius: 10px;
+            padding: 20px;
+            color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 80%;
+            max-width: 800px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: white;
+        }
+        .schedule-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr 2fr 2fr; /* 1fr for "Date" column, 2fr for each day */
+            gap: 1px; /* Small gap between cells */
+            background-color: #ccc; /* Gap color */
+        }
+        .grid-item {
+            padding: 15px;
+            text-align: center;
+            background-color: #e6f0fa;
+            color: #333;
+        }
+        .grid-item.header {
+            background-color: #ff5733;
+            color: white;
+            font-weight: bold;
+        }
+        .grid-item.event {
+            background-color: #1a2a44;
+            color: white;
+            font-weight: bold;
+        }
+        .grid-item.empty {
+            background-color: #d3e3fc;
+        }
+    </style>
+</head>
+<body>
+    <div class="schedule-container">
+        <h1>Event Schedule</h1>
+        <div class="schedule-grid">
+            <!-- Header Row -->
+            <div class="grid-item header">Date</div>
+            <div class="grid-item header">Wednesday</div>
+            <div class="grid-item header">Thursday</div>
+            <div class="grid-item header">Friday</div>
+            <!-- Day 1 Row -->
+            <div class="grid-item">Day 1</div>
+            <div class="grid-item event">Pop Night<br>5:00 - 7:00 PM<br>By Adele</div>
+            <div class="grid-item empty"></div>
+            <div class="grid-item event">Rock & Roll<br>7:00 - 11:00 PM<br>By Rihanna</div>
+            <!-- Day 2 Row -->
+            <div class="grid-item">Day 2</div>
+            <div class="grid-item empty"></div>
+            <div class="grid-item event">DJ Night<br>6:30 - 9:30 PM<br>By Rihanna</div>
+            <div class="grid-item empty"></div>
+            <!-- Day 3 Row -->
+            <div class="grid-item">Day 3</div>
+            <div class="grid-item event">Country Music<br>4:30 - 7:30 PM<br>By Rihanna</div>
+            <div class="grid-item empty"></div>
+            <div class="grid-item event">Free Styles<br>6:00 - 10:00 PM<br>By Members</div>
+        </div>
+    </div>
+</body>
+</html>

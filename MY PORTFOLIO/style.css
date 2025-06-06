@@ -1,0 +1,67 @@
+
+
+        header table tr td h1{
+            color: cadetblue;
+            font-style: italic;
+            text-shadow: 5px 5px #8888;
+            letter-spacing: 10px;
+        }
+        img{
+            object-fit: cover;
+            vertical-align: middle;
+        }
+        header{
+            text-align: center;
+        }
+        table{
+            text-align: center;
+            border-style: dashed;
+            background-color: rgba(106, 124, 18, 0.263);
+            
+        }
+        header table tr td h2{
+            color: aqua;
+            font-size: 40px;
+            font-style: oblique;
+        }
+        header table tr td a{
+            text-emphasis: none;
+            color: #1e1c1c;
+            text-decoration: none;
+            font-style: italic;
+            
+        }
+        table tr th{
+            color: darkolivegreen;
+            font-style: unset;
+        }
+        table #common ul li{
+            color: aquamarine;
+        }
+        strong{
+            color: red;
+            font-style: italic;
+        }
+        table tr .name{
+            color: chocolate;
+            text-decoration: none;
+            font-style: italic;
+        }
+        table tr .name a{
+            text-decoration: none;
+            color: black;
+            letter-spacing: 5px;
+        }
+        footer h2{
+            color: antiquewhite;
+            letter-spacing: 5px;
+            font-style: italic;
+        }
+        footer table tr td{
+            color: grey;
+            font: 1em sans-serif;
+        }
+        footer marquee{
+            color: red;
+            font-style: italic;
+        }

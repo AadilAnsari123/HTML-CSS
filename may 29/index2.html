@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #1a2526;
+            color: #ccc;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #1a2526;
+            border-top: 1px solid #444;
+        }
+        .footer-section {
+            flex: 1;
+            margin: 0 20px;
+        }
+        .footer-section h3 {
+            color: #fff;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        .footer-section p, .footer-section a {
+            color: #ccc;
+            font-size: 14px;
+            line-height: 1.6;
+            text-decoration: none;
+        }
+        .footer-section a:hover {
+            color: #fff;
+        }
+        .newsletter form {
+            display: flex;
+            flex-direction: column;
+        }
+        .newsletter input[type="email"] {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .newsletter button {
+            padding: 10px;
+            background-color: #e63946;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .newsletter button:hover {
+            background-color: #d62828;
+        }
+        .site-links ul {
+            list-style: none;
+            padding: 0;
+        }
+        .site-links li {
+            margin-bottom: 10px;
+        }
+        .join-club p {
+            margin-bottom: 15px;
+        }
+        .join-club button {
+            padding: 10px 20px;
+            background-color: #f4a261;
+            color: #1a2526;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .join-club button:hover {
+            background-color: #e89c5098;
+        }
+        .copyright {
+            text-align: center;
+            padding: 10px;
+            background-color: #1a2526;
+            border-top: 1px solid #444;
+            font-size: 12px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <footer class="footer">
+        <div class="footer-section">
+            <img src="logo.png" alt="NewsGrid Logo" style="width: 100px;">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consectetur adipiscing elit! Suscipit molestias autem nam quasi odit repudiandae earum laborum ipsum dolore consequuntur.</p>
+            <p>asperiores!</p>
+        </div>
+        <div class="footer-section newsletter">
+            <h3>Email Newsletter</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit!</p>
+            <form>
+                <input type="email" placeholder="Enter Email..." required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <div class="footer-section site-links">
+            <h3>Site Links</h3>
+            <ul>
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section join-club">
+            <h3>Join Our Club</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit consectetur! Soluta reiciendis!</p>
+            <button>Join Now</button>
+        </div>
+    </footer>
+    <div class="copyright">
+        <p>Copyright © All Rights Reserved</p>
+    </div>
+</body>
+</html>

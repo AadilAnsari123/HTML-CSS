@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    background-color: rgb(117, 117, 223);
+    height: 100%;
+    width: 100%;
+    display: grid;
+    padding: 15px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.item{
+    background-color: rgb(127, 221, 221);
+    border: 5px solid black;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.two{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.three{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}

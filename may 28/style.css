@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ header h1{
+    color: red;
+ }
+ header h1 span{
+    color: aqua;
+ }
+ header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 70px;
+    
+ }
+ header nav ul{
+    display: flex;
+    gap: 50px;
+    margin-right: 30px;
+    list-style: none;
+ }
+ header nav ul li a{
+    color: white;
+    font-family: 20px;
+    text-decoration: none;
+ }
+ .about{
+    display: flex;
+    margin: 30px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+ }
+ .about img{
+    width: 300px;
+    height: 300px;
+ }
+ .about .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+ }
+.parent{
+    height: 500px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 10px;
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body{
+        background-color: #1a2526;
+      }
+         .parent{
+          display: grid;
+          height: 400px;
+          grid-template-columns: auto auto auto auto;
+          background-color: #1a2526;
+          column-gap: 50px;
+          border-bottom: 2px solid red;
+         }
+         .child1{
+          margin-left: 200px;
+          margin-top: 20px;
+          margin-right: 100px;
+          
+         }
+         .child1 h1{
+          color: white;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          margin-bottom: 10px;
+         }
+         .child1 p{
+          color: white;
+          font-size: 20px;
+          font-style: italic;
+         }
+         .child2{
+          margin-top: 20px;
+          margin-right: 100px;
+         }
+         .child2 h1{
+          color: white;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          margin-bottom: 10px;
+         }
+         .child2 p{
+          color: white;
+          font-size: 20px;
+          font-style: italic;
+         }
+         .child2 input{
+          height: 30px;
+          width: 250px;
+          margin-top: 10px;
+         }
+         .child2 button{
+          background-color: red;
+          text-decoration: none;
+          border: none;
+          font-size: larger;
+          height: 30px;
+          width: 250px;
+         }
+         .child2 button a{
+          text-decoration: none;
+          color: white;
+         }
+         .child3{
+          margin-top: 20px;
+          margin-right: 100px;
+         }
+         .child3 h1{
+          color: white;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          margin-bottom: 10px;
+         }
+         .child3 ul li{
+          list-style: none;
+          margin-bottom: 30px;
+         }
+         .child3 ul li a{
+          color: white;
+          text-decoration: none;
+          font-size: larger;
+          }
+          .child4{
+            margin-top: 20px;
+            margin-right: 200px;
+          }
+          .child4 h1{
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-bottom: 10px;
+          }
+          .child4 p{
+            font-size: 20px;
+            font-style: italic;
+            color: white;
+
+          }
+          .child4 button{
+            background-color: #e89c5098;
+            margin-top: 10px;
+            height: 30px;
+            width: 100px;
+            border: none;
+          }
+          .child4 button a{
+            text-decoration: none;
+            font-size: larger;
+            color: white;
+          }
+
+         
+
+    </style>
+</head>
+<body>
+    <footer class="parent">
+
+          <div class="child1">
+            <h1>NewGrid</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque recusandae tenetur ut maiores, ratione amet expedita cum nihil. Similique voluptates, eius deserunt blanditiis quidem iusto voluptatum nesciunt tempora perspiciatis? Voluptates autem, sequi totam, soluta incidunt expedita delectus nam enim repellat optio nesciunt quidem vitae.
+            </p>
+          </div>
+          
+          <div class="child2">
+             <h1>Email Newsletter</h1>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, porro?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident nihil at officiis inventore ex! Cupiditate pariatur autem sint quibusdam consectetur hic eius voluptatem praesentium veritatis nobis! Doloribus illo, debitis voluptas blanditiis</p>
+             <input type="text" placeholder="Enter Email...">
+             <br>
+             <br>
+             <button><a href="">Subscribe</a></button>
+          </div>
+          <div class="child3">
+            <h1>Site Link</h1>
+            <ul>
+              <li><a href="#" class="item1">Help & Support</a></li>
+              <li><a href="#" class="item2">Privacy Policy</a></li>
+              <li><a href="#" class="item3">AboutUs</a></li>
+              <li><a href="#" class="item4">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="child4">
+            <h1>Join Our Club</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum nisi praesentium sunt expedita cumque eveniet deleniti vero quos soluta aliquid nesciunt, similique mollitia laudantium ratione officiis iste quo accusantium! Vel quo a.</p>
+            <button><a href="">Join Now</a></button>
+          </div>
+
+
+    </footer>
+    
+</body>
+</html>

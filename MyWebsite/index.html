@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .banner h2{
+            background-color: yellow;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 60px;
+    
+            
+        }
+        header{
+            width: 100%;
+            height: 100vh;
+            background: url(/photo-1470225620780-dba8ba36b745.avif);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            font-size: 25px;
+            color: white;
+            padding-left: 150px;
+            padding-right: 150px;
+            position: sticky;
+            top: 0;
+        }
+        .navbar h2{
+            margin-top: 30px;
+        }
+        .navbar ul{
+            display: flex;
+            justify-content: space-around;
+            gap: 103px;
+            margin-top: 40px;
+            list-style: none;
+        }
+        .navbar button{
+            width: 150px;
+            height: 50px;
+            color: white;
+            background-color: orangered;
+            border: orangered;
+            font-size: 20px;
+            border-radius: 40px;
+        }
+        .about{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 240px;
+            color: white;
+        }
+        .about h1{
+            font-size: 80px;
+        }
+        .about h2{
+            font-size: larger;
+        }
+        .about button{
+            background-color: orangered;
+            width: 150px;
+            height: 50px;
+            color: white;
+            border: orangered;
+            border-radius: 40px;
+            font-size: 20px;
+            margin-top: 40px;
+        }
+        .event-detail{
+            display: flex;
+            color: white;
+            justify-content: space-between;
+
+        }
+        .detail1{
+            margin-top: 350px;
+            margin-left: 80px;
+            font-size: 30px;
+        }
+        .detail2{
+            margin-top: 350px;
+            margin-right: 80px;
+            font-size: 30px;
+        }
+
+        section{
+            width: 100%;
+            height: 70vh;
+            background: url(/photo2-1507676184212-d03ab07a01bf.avif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+        }
+        .main{
+            color: white;
+            margin-top: 180px;
+            text-align: justify;
+            margin-left: 300px;
+        }
+        .main h1{
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        .main h2{
+            margin-top: 35px;
+            margin-bottom: 10px;
+        }
+        .main h3{
+            margin-top: 30px;
+            margin-bottom: 10px;
+            font-size: 35px;
+        }
+        .main p{
+            font-size: 20px;
+        }
+        .main2{
+            margin-top: 180px;
+            margin-right: 300px;
+            margin-left: 20px;
+        }
+        .main2 img{
+            height: 400px;
+            width: 600px;
+            border-radius: 20px;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 200px;
+            font-size: 50px;
+        }
+        .container{
+            height: 100%;
+            width: 100%;
+            padding-top: 200px;
+            padding-left: 400px;
+            padding-right: 400px;
+            /* padding: 500px; */
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        img{
+            margin-left: 100px;
+            border-radius: 15px;
+        }
+        .image1{
+           grid-row-start: 1;
+           grid-row-end: 3;
+        }
+        .image2{
+           grid-row-start: 1;
+           grid-row-end: 2;
+        }
+        .image3{
+           grid-row-start: 2;
+           grid-row-end: 3;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <h2>Welcome To Music Fastival 2023</h2>
+    </div>
+    <header>
+        <div class="navbar">
+            <h2>Festava Live</h2>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Artists</li>
+                <li>Schedule</li>
+                <li>Pricing</li>
+                <li>Contact</li>
+                <li><button>Buy Ticket</button></li>
+            </ul>
+        </div>
+
+        <div class="about">
+               <h2>FESTIVA LIVE PRESENTS</h2>
+               <h1>Night Live 2023</h1>
+               <button>Let's begin</button>
+        </div>
+
+        <div class="event-detail">
+            <div class="detail1">
+                <span class="icon"><i><i class="fa-solid fa-clock"></i>10-12,Dec2023</i></span>
+            </div>
+            <div class="detail2">
+                <span class="icon2"><i><i class="fa-solid fa-location-dot"></i>National Center,United State</i></span>
+            </div>
+        </div>
+
+    </header>
+          
+    <section>
+         <div class="main">
+            <h1>About Festava 2022</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellat quisquam illum officiis odit unde quam natus commodi ipsa assumenda repudiandae officia voluptatum velit, labore vel neque!</p>
+            <h2>Once in Lifetime Experience</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ea veniam commodi animi eum est accusantium eos molestias doloribus expedita?</p>
+            <h3>Whole Night Party</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, autem.</p>
+          </div>
+
+          <div class="main2">
+             <img src="/pexels-alexander-suhorucov-6457579.jpg" alt="photo">
+          </div>
+
+    </section>
+
+     <h1>Meet Artists</h1>
+    <div class="container">
+        
+        <img src="/joecalih-UmTZqmMvQcw-unsplash.jpg" class="image1">
+        <img src="/abstral-official-bdlMO9z5yco-unsplash.jpg" class="image2">
+        <img src="/soundtrap-rAT6FJ6wltE-unsplash.jpg" class="image3">
+
+
+</body>
+</html>

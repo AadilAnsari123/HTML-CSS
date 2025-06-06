@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: #00C4B4;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
+        }
+        header h1{
+            color: white;
+            margin: 80px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        header nav ul{
+            display: flex;
+            margin-right: 50px;
+            gap: 100px;
+            list-style: none;
+            
+        }
+        header nav ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        header nav ul li i{
+            color: white;
+        }
+        .about .content{
+            height: 100vh;
+            width: 100vw;
+            padding: 200px;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+            background-image: url(/photo2-1747996714265-5f8116c20842.avif);
+            background-repeat: no-repeat;
+        }
+        button{
+            background-color: #00C4B4;
+            height: 30px;
+            width: 100px;
+            margin-top: 50px;
+            border-radius: 5px;
+        }
+        p{
+            text-align: center;
+            margin-top: 50px;
+            font-weight: 900;
+            font-style: italic;
+            color: white;
+        }
+        .content h1{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WISE</h1>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">SCREENSHOT</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <li><i><i class="fa-solid fa-magnifying-glass"></i></i></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about" class="about">
+            <div class="content">
+                <h1>BASIC TEMPLATE</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ut quo cum dolorem minima facilis repellat, recusandae eaque suscipit accusamus quia molestias, est repudiandae numquam doloremque adipisci enim quos iure inventore velit aliquam rerum. Harum ullam tenetur ipsum minima enim consectetur, veniam inventore ducimus repellendus soluta, distinctio nostrum magnam, sapiente maiores ab placeat molestiae ad numquam minus autem velit beatae.</p>
+                <button>READ MORE</button>
+            </div>
+    </section>
+</body>
+</html>
